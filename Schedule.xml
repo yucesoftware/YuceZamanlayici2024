@@ -1,0 +1,26 @@
+﻿<Tasks>
+  <Task>
+    <Name>Stok Entegrasyonu</Name>
+    <Trigger>
+      <Start>00:00:00</Start>
+      <Stop>23:59:59</Stop>
+      <Interval>15</Interval>
+    </Trigger>
+    <Action>
+      <Path>C:\yuceonline\I_ENTEGRE_B2B\YeniEntegre.exe</Path>
+      <Parameters>STOK FIRMA CARIHAREKET FATURADETAY STOKFIYAT</Parameters>
+    </Action>
+  </Task>
+  <Task>
+    <Name>Sipariş Entegrasyonu</Name>
+    <Trigger>
+      <Start>00:00:00</Start>
+      <Stop>23:59:59</Stop>
+      <Interval>5</Interval>
+    </Trigger>
+    <Action>
+      <Path>C:\yuceonline\B2BAktarim\WebToInfinity.exe</Path>
+      <Parameters></Parameters>
+    </Action>
+  </Task>
+</Tasks>
